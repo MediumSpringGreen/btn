@@ -3,6 +3,8 @@
 > The only react library you'll need for buttons. 👌
 >
 > Actively maintained and 0-dependency.😎
+> 
+> Minimum bundle size because of NO PNG POLICY. All is SVG. Light weight.🦋
 >
 >👉👉👉👉[Choose 'n Use](https://github.com/MediumSpringGreen/btn/tree/main/catalogue)👈👈👈👈
 

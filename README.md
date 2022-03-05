@@ -6,7 +6,7 @@
 > 
 > Minimum bundle size because of NO PNG POLICY. All is SVG. Light weight.🦋
 >
->👉👉👉👉[Choose 'n Use](https://github.com/MediumSpringGreen/btn/tree/main/catalogue)👈👈👈👈
+>👉👉👉👉[Choose 'n Use](https://mediumspringgreen.github.io/btn/)👈👈👈👈
 
 # Philosophy
 > Instead of design headache, deciding what font to use, what color to use, etc. just [choose one button](https://github.com/MediumSpringGreen/btn/tree/main/catalogue) from many pre designed and ready to use buttons and ship faster.🚀

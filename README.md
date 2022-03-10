@@ -7,7 +7,9 @@ Thanks for your patience
 >
 > Actively maintained and 0-dependency.😎
 > 
-> Minimum bundle size because of NO PNG(OR ANY IMAGE FILE) POLICY. All is SVG. Light weight.🦋
+> Minimum bundle size because of NO PNG(OR ANY IMAGE FILE) POLICY. Light weight and unopinionated.🦋
+>
+>Simple and secure.🔒
 >
 >👉👉👉👉[Start Here!](https://mediumspringgreen.github.io/btn/)👈👈👈👈
 

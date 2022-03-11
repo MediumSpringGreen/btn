@@ -1,0 +1,14 @@
+.FloatingActionButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #468cfc;
+  transition: 0.25s all ease-in-out;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+.FloatingActionButton:hover {
+  background: #5693f4;
+}

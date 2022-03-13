@@ -1,4 +1,4 @@
-Thanks you if you are downloading, right now it's in developement phase and I code everyday when I find the time and once its initial release is operational, I'll release as version 1.0.0
+Thanks you if you are downloading, right now it's in developement phase. It's a passion project and I code everyday when I find the time. Once its operational, I'll release as version 1.0.0
 
 Thanks for your patience
 # btnjs 📱

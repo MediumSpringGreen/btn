@@ -1,6 +1,6 @@
 {
   "name": "btnjs",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "The only library you will need for the buttons in your react project.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "cool"
   ],
   "author": "MediumSpringGreen",
-  "license": "GPL-3.0",
+  "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/MediumSpringGreen/btnjs/issues"
   },

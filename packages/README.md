@@ -1,8 +1,8 @@
-Thanks you if you are downloading, right now it's in developement phase and I code everyday when I find the time and once its initial release is operational, I'll release as version 1.0.0
+Thanks you if you are downloading, right now it's in developement phase. It's a passion project and I code everyday when I find the time. Once its operational, I'll release as version 1.0.0
 
 Thanks for your patience
-# btn 📱
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![npm version](https://badge.fury.io/js/btnjs.svg)](https://badge.fury.io/js/btnjs) [![Npm package total downloads](https://badgen.net/npm/dt/btnjs)](https://www.npmjs.com/package/btnjs) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) [![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org)
+# btnjs 📱
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![npm version](https://badge.fury.io/js/btnjs.svg)](https://badge.fury.io/js/btnjs) [![Npm package total downloads](https://badgen.net/npm/dt/btnjs)](https://www.npmjs.com/package/btnjs) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) [![TypeScript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://typescriptlang.org)
 > The only react library you'll need for buttons. 👌
 >
 > Actively maintained and 0-dependency.😎

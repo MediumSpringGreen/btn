@@ -11,7 +11,7 @@ Thanks for your patience
 >
 >Simple and secure.🔒
 >
->👉👉👉👉[Start Here!](https://mediumspringgreen.github.io/btn/)👈👈👈👈
+>👉👉👉👉[Start Here!](https://mediumspringgreen.github.io/btnjs/)👈👈👈👈
 
 # Philosophy
 > Instead of design headache, deciding what font to use, what color to use, etc. just choose one button from many pre designed and ready to use buttons and ship faster.🚀

@@ -1,0 +1,19 @@
+.GradientReflectHover {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 11px;
+  background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fd85cf 51%,
+    #f6d365 100%
+  );
+}
+.GradientReflectHover:hover {
+  background-position: right center;
+}

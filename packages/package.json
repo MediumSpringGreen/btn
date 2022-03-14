@@ -1,6 +1,6 @@
 {
   "name": "btnjs",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "The only library you will need for the buttons in your react project.",
   "main": "index.js",
   "scripts": {

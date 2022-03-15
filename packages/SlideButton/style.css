@@ -1,0 +1,10 @@
+.SlideButton {
+  width: 100%;
+  filter: invert(100%) hue-rotate(-18deg) brightness(1.7);
+}
+.SlideButton[value="100"] {
+  filter: invert(100%) hue-rotate(80deg) brightness(1.7);
+}
+.SlideButton[value="75"] {
+  filter: invert(100%) hue-rotate(18deg) brightness(1.7);
+}

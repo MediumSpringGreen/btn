@@ -4,6 +4,7 @@ import { Props } from "./types";
 
 export const SlideButton = (props: Props) => {
   const [guard, setGuard] = React.useState(0);
+  const [done, setDone] = React.useState(false);
   const [currentValue, setCurretnValue] = React.useState(0);
 
   function customMUp(e: React.MouseEvent<HTMLInputElement, MouseEvent>): void {
@@ -14,6 +15,7 @@ export const SlideButton = (props: Props) => {
           setCurretnValue(0);
           setGuard(0);
         } else {
+          setDone(true);
           props.onDone();
         }
       } else {
@@ -33,15 +35,17 @@ export const SlideButton = (props: Props) => {
   }
 
   return (
-    <input
-      type="range"
-      className="SlideButton"
-      min="0"
-      max="100"
-      step="25"
-      value={currentValue}
-      onMouseUp={customMUp}
-      onChange={onChange}
-    />
+    !done && (
+      <input
+        type="range"
+        className="SlideButton"
+        min="0"
+        max="100"
+        step="25"
+        value={currentValue}
+        onMouseUp={customMUp}
+        onChange={onChange}
+      />
+    ) || done && <p>Done!</p>
   );
 };

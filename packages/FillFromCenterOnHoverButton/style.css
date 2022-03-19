@@ -1,0 +1,38 @@
+.FillFromCenterOnHoverButton {
+  border-radius: 0.6em;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  border-color: #00b59d;
+  border-radius: 0;
+  color: #00b59d;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+}
+.FillFromCenterOnHoverButton:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #00b59d;
+  z-index: -1;
+  transition: width 150ms ease-in-out;
+}
+.FillFromCenterOnHoverButton:hover {
+  color: #fff;
+}
+.FillFromCenterOnHoverButton:hover:after {
+  width: 110%;
+}

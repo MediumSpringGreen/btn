@@ -3,6 +3,8 @@ import { FloatingActionButton } from "./FloatingActionButton";
 import { RoundCorneredButton } from "./RoundCorneredButton";
 import { ButtonGroup } from "./ButtonGroup";
 import { GradientReflectHover } from "./GradientReflectHover";
+import { DiagonalFillOnHoverButton } from "./DiagonalFillOnHoverButton";
+import { FillFromCenterOnHoverButton } from "./FillFromCenterOnHoverButton";
 
 export {
   ChromeCloseTabButton2022,
@@ -10,4 +12,6 @@ export {
   RoundCorneredButton,
   GradientReflectHover,
   ButtonGroup,
+  FillFromCenterOnHoverButton,
+  DiagonalFillOnHoverButton,
 };

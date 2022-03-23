@@ -1,0 +1,98 @@
+.SimpleMuteButton {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.speaker {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  overflow: hidden;
+  margin: 5px;
+}
+.speaker span {
+  display: block;
+  width: 7px;
+  height: 7px;
+  background: rgb(0, 0, 0);
+  margin: 12px 0 0 1px;
+}
+.speaker span:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent rgb(0, 0, 0) transparent transparent;
+  border-width: 10px 12px 10px 15px;
+  left: -13px;
+  top: 5px;
+}
+.speaker span:before {
+  transform: rotate(45deg);
+  border-radius: 0 50px 0 0;
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-style: double;
+  border-color: rgb(0, 0, 0);
+  border-width: 7px 7px 0 0;
+  left: 18px;
+  top: 9px;
+  transition: all 0.2s ease-out;
+}
+
+.maction span:before {
+  transform: scale(0.8) translate(-17px, 0) rotate(42deg);
+}
+.maction .mute {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.speaker.on .mute {
+  opacity: 1;
+  transform: scale(1);
+}
+.speaker.on span:before {
+  transform: scale(0.8) translate(-17px, 0) rotate(42deg);
+}
+
+.mute {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  opacity: 0;
+  left: 9px;
+  top: 7px;
+  transform: scale(0.3);
+  transition: all 0.2s ease-out;
+}
+
+.mute:before,
+.mute:after {
+  position: absolute;
+  margin-left: 7px;
+  content: " ";
+  height: 15px;
+  width: 2px;
+  background-color: #ff0000;
+}
+.on .mute:before,
+.on .mute:after {
+  position: absolute;
+  margin-left: 7px;
+  content: " ";
+  height: 15px;
+  width: 2px;
+  background-color: #000000;
+}
+.mute:before {
+  transform: rotate(45deg);
+}
+.mute:after {
+  transform: rotate(-45deg);
+}

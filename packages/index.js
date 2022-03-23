@@ -6,6 +6,8 @@ import { GradientReflectHover } from "./GradientReflectHover";
 import { DiagonalFillOnHoverButton } from "./DiagonalFillOnHoverButton";
 import { FillFromCenterOnHoverButton } from "./FillFromCenterOnHoverButton";
 import { TactileFeedbackButton } from "./TactileFeedbackButton";
+import { SimpleMuteButton } from "./SimpleMuteButton";
+import { AnimatedMuteButton } from "./AnimatedMuteButton";
 
 export {
   ChromeCloseTabButton2022,
@@ -16,4 +18,6 @@ export {
   FillFromCenterOnHoverButton,
   DiagonalFillOnHoverButton,
   TactileFeedbackButton,
+  SimpleMuteButton,
+  AnimatedMuteButton,
 };

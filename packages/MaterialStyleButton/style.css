@@ -1,0 +1,56 @@
+.TactileFeedbackButton {
+  width: 100%;
+  height: 90%;
+  padding: 0px;
+  margin: 0px;
+  background-color: red;
+  box-shadow: 0px 1px 1px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TactileFeedbackButton .content {
+  position: absolute;
+}
+
+.TactileFeedbackButton .mark-cont {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* 
+.TactileFeedbackButton .click-mark .mark {
+  position: absolute;
+  background-color: aliceblue;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  opacity: 0.5;
+  transition: opacity 1s, width 2s, height 2s;
+} */
+
+/* .mark-start .click-mark .mark {
+  opacity: 0.1;
+  width: 300%;
+  height: 300%;
+} */
+
+/* .mark-cont svg {
+  width: 100%;
+  height: 100%;
+} */
+
+.mark-cont svg circle {
+  r: 0;
+  transition: none;
+  fill: rgb(213, 0, 0);
+}
+.mark-start .mark-cont svg circle {
+  r: 100;
+  opacity: 0;
+  transition: r 0.5s, opacity 0.5s;
+  z-index: 111;
+}

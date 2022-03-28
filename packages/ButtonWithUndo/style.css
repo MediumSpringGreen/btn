@@ -1,0 +1,27 @@
+.ButtonWithUndo {
+  background-color: green;
+  width: 100px;
+  height: 20px;
+  background-size: 300% auto;
+  transition: 3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  font-size: 0.5rem;
+  display: flex;
+  user-select: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    #0b8500 0%,
+    #089600 35%,
+    #ffc400 70%,
+    #ffc400 100%
+  );
+}
+
+.ButtonWithUndo.undo {
+  background-position: right center;
+  color: black;
+}

@@ -8,7 +8,8 @@ import { FillFromCenterOnHoverButton } from "./FillFromCenterOnHoverButton";
 import { TactileFeedbackButton } from "./TactileFeedbackButton";
 import { SimpleMuteButton } from "./SimpleMuteButton";
 import { AnimatedMuteButton } from "./AnimatedMuteButton";
-import { MaterialStyleButton } from "../src/MaterialStyleButton";
+import { MaterialStyleButton } from "./MaterialStyleButton";
+import { ConfettiButton } from "./ConfettiButton";
 
 export {
   ChromeCloseTabButton2022,
@@ -22,4 +23,5 @@ export {
   SimpleMuteButton,
   AnimatedMuteButton,
   MaterialStyleButton,
+  ConfettiButton,
 };

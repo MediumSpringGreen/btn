@@ -1,11 +1,21 @@
 .AnimatedMuteButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   width: 50px;
   height: 50px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -15,62 +25,110 @@
   background-color: black;
   display: block;
   color: red;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   font-size: 1rem;
 }
 
 .sound-on .third-bar {
+  -webkit-animation: sound 0.5s infinite;
   animation: sound 0.5s infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
+  -webkit-animation-play-state: running;
   animation-play-state: running;
 }
 .sound-on .first-bar {
+  -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
+  -webkit-animation: sound 0.6s infinite;
   animation: sound 0.6s infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  -webkit-animation-play-state: running;
   animation-play-state: running;
 }
 
 .sound-on .second-bar {
+  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
+  -webkit-animation: sound 0.4s infinite;
   animation: sound 0.4s infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  -webkit-animation-play-state: running;
   animation-play-state: running;
   font-size: 0rem;
 }
 
 .third-bar {
+  -webkit-animation: sound 0.5s infinite;
   animation: sound 0.5s infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
+  -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
 .first-bar {
+  -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
+  -webkit-animation: sound 0.6s infinite;
   animation: sound 0.6s infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
 
 .second-bar {
+  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
+  -webkit-animation: sound 0.4s infinite;
   animation: sound 0.4s infinite;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
   animation-direction: alternate;
+  -webkit-animation-play-state: paused;
   animation-play-state: paused;
   font-size: 1rem;
+}
+
+@-webkit-keyframes sound {
+  from {
+    height: 65%;
+  }
+  to {
+    height: 100%;
+  }
 }
 
 @keyframes sound {

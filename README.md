@@ -15,6 +15,3 @@ Thanks for your patience
 
 # Philosophy
 > Instead of design headache, deciding what font to use, what color to use, etc. just choose one button from many pre designed and ready to use buttons and ship faster.🚀
-
-# Rationale behind bundling
-> To prevent big eventual bundle size and let the bundle optimizers work as intended(regardless of the bundler), no bundling and inital compilation has been done before the usage of each button in the library and each button can be used separatly from the many buttons in this library.

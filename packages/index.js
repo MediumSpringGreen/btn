@@ -10,6 +10,7 @@ import { SimpleMuteButton } from "./SimpleMuteButton";
 import { AnimatedMuteButton } from "./AnimatedMuteButton";
 import { MaterialStyleButton } from "./MaterialStyleButton";
 import { ConfettiButton } from "./ConfettiButton";
+import { BootstrapStyleButton } from "./BootstrapStyleButton";
 
 export {
   ChromeCloseTabButton2022,
@@ -24,4 +25,5 @@ export {
   AnimatedMuteButton,
   MaterialStyleButton,
   ConfettiButton,
+  BootstrapStyleButton,
 };

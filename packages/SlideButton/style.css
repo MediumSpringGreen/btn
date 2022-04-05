@@ -1,18 +1,25 @@
 .SlideButton {
   width: 100%;
+  -webkit-filter: invert(100%) hue-rotate(-18deg) brightness(1.7);
   filter: invert(100%) hue-rotate(-18deg) brightness(1.7);
+  -webkit-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
 .SlideButton[value="100"] {
+  -webkit-filter: invert(100%) hue-rotate(80deg) brightness(1.7);
   filter: invert(100%) hue-rotate(80deg) brightness(1.7);
   opacity: 0;
 }
 .SlideButton[value="75"] {
+  -webkit-filter: invert(100%) hue-rotate(200deg) brightness(1.7);
   filter: invert(100%) hue-rotate(200deg) brightness(1.7);
 }
 .SlideButton[value="25"] {
+  -webkit-filter: invert(90%) hue-rotate(18deg) brightness(1.7);
   filter: invert(90%) hue-rotate(18deg) brightness(1.7);
 }
 .SlideButton[value="50"] {
+  -webkit-filter: invert(100%) hue-rotate(180deg) brightness(1.7);
   filter: invert(100%) hue-rotate(180deg) brightness(1.7);
 }

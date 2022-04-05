@@ -1,7 +1,13 @@
 .SimpleMuteButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100vh;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -31,6 +37,8 @@
   top: 5px;
 }
 .speaker span:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   border-radius: 0 50px 0 0;
   content: "";
@@ -42,22 +50,32 @@
   border-width: 7px 7px 0 0;
   left: 18px;
   top: 9px;
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
 .maction span:before {
+  -webkit-transform: scale(0.8) translate(-17px, 0) rotate(42deg);
+  -ms-transform: scale(0.8) translate(-17px, 0) rotate(42deg);
   transform: scale(0.8) translate(-17px, 0) rotate(42deg);
 }
 .maction .mute {
   opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
 }
 
 .speaker.on .mute {
   opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
 }
 .speaker.on span:before {
+  -webkit-transform: scale(0.8) translate(-17px, 0) rotate(42deg);
+  -ms-transform: scale(0.8) translate(-17px, 0) rotate(42deg);
   transform: scale(0.8) translate(-17px, 0) rotate(42deg);
 }
 
@@ -68,7 +86,11 @@
   opacity: 0;
   left: 9px;
   top: 7px;
+  -webkit-transform: scale(0.3);
+  -ms-transform: scale(0.3);
   transform: scale(0.3);
+  -webkit-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
@@ -91,8 +113,12 @@
   background-color: #000000;
 }
 .mute:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .mute:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }

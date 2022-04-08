@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import FadeIn from "react-fade-in";
 import "./style.css";
 import { Props } from "./types";
 
@@ -57,9 +56,7 @@ export function ButtonWithUndo(props: Props) {
       )}
       {((count < 1 && stateDiagram === StatesDiagram.CLICKED_UNDO_SHOWN) ||
         stateDiagram == StatesDiagram.SUBMIT_COMPLETE) && (
-        <FadeIn>
-          <span>Submited ✅</span>
-        </FadeIn>
+        <span>Submited ✅</span>
       )}
     </div>
   );

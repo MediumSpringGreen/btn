@@ -11,6 +11,7 @@ import { AnimatedMuteButton } from "./AnimatedMuteButton";
 import { MaterialStyleButton } from "./MaterialStyleButton";
 import { ConfettiButton } from "./ConfettiButton";
 import { BootstrapStyleButton } from "./BootstrapStyleButton";
+import { PlayButton } from "./PlayButton";
 
 export {
   ChromeCloseTabButton2022,
@@ -26,4 +27,5 @@ export {
   MaterialStyleButton,
   ConfettiButton,
   BootstrapStyleButton,
+  PlayButton,
 };
